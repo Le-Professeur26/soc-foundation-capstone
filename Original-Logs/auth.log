@@ -1,0 +1,12 @@
+LINUX auth.log on WEB-01 (trimmed; no year or time zone in the file; the host clock is UTC)
+Mar 14 14:10:01 WEB-01 sshd[2201]: Failed password for invalid user admin from 198.51.100.77 port 41022 ssh2
+Mar 14 14:10:03 WEB-01 sshd[2203]: Failed password for invalid user test from 198.51.100.77 port 41030 ssh2
+Mar 14 14:10:05 WEB-01 sshd[2205]: Failed password for root from 198.51.100.77 port 41038 ssh2
+Mar 14 14:10:07 WEB-01 sshd[2207]: Failed password for root from 198.51.100.77 port 41046 ssh2
+Mar 14 14:10:09 WEB-01 sshd[2209]: Failed password for invalid user ubuntu from 198.51.100.77 port 41054 ssh2
+Mar 14 14:10:11 WEB-01 sshd[2211]: Failed password for deploy from 198.51.100.77 port 41062 ssh2
+Mar 14 14:11:30 WEB-01 sshd[2230]: Accepted password for deploy from 198.51.100.77 port 41110 ssh2
+Mar 14 14:11:30 WEB-01 sshd[2230]: pam_unix(sshd:session): session opened for user deploy(uid=1001)
+Mar 14 14:12:30 WEB-01 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 14 14:13:02 WEB-01 useradd[2301]: new user: name=support, UID=1002, GID=1002
+Mar 14 14:20:15 WEB-01 sshd[2410]: Accepted publickey for asmith from 10.20.5.15 port 52044 ssh2: RSA SHA256:Qx9dA7vN2uXkq1sB0c1Zz0A
