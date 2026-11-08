@@ -1,0 +1,5 @@
+DHCP lease table at 2026-03-14 14:00 UTC
+10.20.5.42  WS-0142  (jdoe, Finance laptop)
+10.20.5.33  WS-0118  (mrivera, HR laptop)
+10.20.5.60  WS-0207  (shared kiosk in the warehouse, no regular user)
+10.20.5.15  JUMP-01  (admin jump host used by asmith)

@@ -1,0 +1,16 @@
+WINDOWS SECURITY EVENTS (key=value; trimmed; times UTC)
+2026-03-14T08:55:02Z EventID=4624 Computer=WS-0142 TargetUserName=jdoe LogonType=2 IpAddress=-
+2026-03-14T09:00:14Z EventID=4624 Computer=SRV-FS01 TargetUserName=jdoe LogonType=3 AuthenticationPackageName=Kerberos IpAddress=10.20.5.42
+2026-03-14T13:58:30Z EventID=4625 Computer=WS-0118 TargetUserName=mrivera LogonType=2 SubStatus=0xC000006A IpAddress=-
+2026-03-14T13:58:41Z EventID=4624 Computer=WS-0118 TargetUserName=mrivera LogonType=2 IpAddress=-
+2026-03-14T14:02:11Z EventID=4625 Computer=SRV-FS01 TargetUserName=jdoe LogonType=3 SubStatus=0xC000006A IpAddress=10.20.5.60 WorkstationName=WS-0207
+2026-03-14T14:02:13Z EventID=4625 Computer=SRV-FS01 TargetUserName=mrivera LogonType=3 SubStatus=0xC000006A IpAddress=10.20.5.60 WorkstationName=WS-0207
+2026-03-14T14:02:15Z EventID=4625 Computer=SRV-FS01 TargetUserName=asmith LogonType=3 SubStatus=0xC000006A IpAddress=10.20.5.60 WorkstationName=WS-0207
+2026-03-14T14:02:17Z EventID=4625 Computer=SRV-FS01 TargetUserName=svc-backup LogonType=3 SubStatus=0xC000006A IpAddress=10.20.5.60 WorkstationName=WS-0207
+2026-03-14T14:02:19Z EventID=4625 Computer=SRV-FS01 TargetUserName=admin LogonType=3 SubStatus=0xC0000064 IpAddress=10.20.5.60 WorkstationName=WS-0207
+2026-03-14T14:02:21Z EventID=4625 Computer=SRV-FS01 TargetUserName=helpdesk LogonType=3 SubStatus=0xC0000064 IpAddress=10.20.5.60 WorkstationName=WS-0207
+2026-03-14T14:02:24Z EventID=4624 Computer=SRV-FS01 TargetUserName=svc-backup LogonType=3 AuthenticationPackageName=NTLM IpAddress=10.20.5.60 WorkstationName=WS-0207 LogonId=0x5f1a2
+2026-03-14T14:02:24Z EventID=4672 Computer=SRV-FS01 SubjectUserName=svc-backup PrivilegeList=SeBackupPrivilege,SeRestorePrivilege LogonId=0x5f1a2
+2026-03-14T14:05:40Z EventID=4720 Computer=SRV-FS01 TargetUserName=helpdesk2 SubjectUserName=svc-backup
+2026-03-14T14:05:52Z EventID=4732 Computer=SRV-FS01 MemberName=helpdesk2 TargetGroup=Administrators SubjectUserName=svc-backup
+2026-03-14T14:06:10Z EventID=4624 Computer=SRV-FS01 TargetUserName=helpdesk2 LogonType=10 IpAddress=10.20.5.60 WorkstationName=WS-0207 LogonId=0x5f6c0
